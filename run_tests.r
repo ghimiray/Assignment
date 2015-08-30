@@ -2,7 +2,7 @@ library('RUnit')
  
 source('test1.R')
  
-test.suite <- defineTestSuite("examples",
+test.suite <- defineTestSuite("bipartite",
                               dirs = file.path("tests"),
                               testFileRegexp = '^\\d+\\.R')
  

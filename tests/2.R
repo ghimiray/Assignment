@@ -1,4 +1,4 @@
-test.examples <- function()
+test.bipartite <- function()
 {
    TestData1 <- data.frame(S1=c(1,2,3,4),
                     S2=c(1,1,0,0),

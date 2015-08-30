@@ -1,4 +1,4 @@
-test.examples <- function()
+test.bipartite <- function()
 {
    TestData <- read.table("test.txt",sep="\t", header= TRUE)
    TestData1 <- data.frame(S1=c(1,2,3,4),
