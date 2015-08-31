@@ -10,9 +10,9 @@ myGraph <- add.vertices(myGraph,nv=length(unique(TestData$S1)),
 								attr=list(name=paste0('X',unique(TestData$S1)),
                                 type=rep(TRUE,length(unique(TestData$S1)))))
 								
-myGraph <- add.vertices(myGraph,nv=length(unique(TestData$S2)),
-								attr=list(name=paste0('Y',unique(TestData$S2)),
-                                type=rep(FALSE,length(unique(TestData$S2)))))
+myGraph <- add.vertices(myGraph,nv=length(unique(TestData$S4)),
+								attr=list(name=paste0('Y',unique(TestData$S4)),
+                                type=rep(FALSE,length(unique(TestData$S4)))))
 
 ##converting data to vector and using their names instead of index.
 myGraphVector <- as.vector(t(as.matrix(data.frame(S1=paste0('X',TestData$S1),
